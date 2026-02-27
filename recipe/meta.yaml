@@ -1,5 +1,5 @@
 {% set name = "nodejs-wheel" %}
-{% set version = "24.13.1" %}
+{% set version = "24.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/njzjz/nodejs-wheel/archive/v{{ version }}.tar.gz
-  sha256: ce5ee28cc6f02381de24d9a264bd0d14d0ac39fd7fb2c857ac9d31e5e13fb8b2
+  sha256: d4a3b833f9722c583ebd7b049873fc2068f47721a3404ebcb9db2dd53b5b1df9
   patches:
     - 0001-hack-ROOT_DIR.patch
 
